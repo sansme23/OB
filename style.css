@@ -10,12 +10,55 @@ img{
 
 body{
     min-height: 100vh;
+    display: grid;
+    grid-template-rows: 30% 100% 25%;
     background-color: #7C857C;
     font-family: sans-serif;
+
+}
+
+.titel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3em;
+    font-size: 64px;
+    padding-bottom: 2em;
 }
 
 
 
+.emne1{
+
+    background-color: rgb(6, 51, 51);
+}
+
+.emne2{
+
+    background-color: rgb(26, 67, 38);
+}
+
+.emne3{
+    background-color: #5D9A9A;
+
+}
+
+.emne4{
+    background-color: darkslategray;
+}
+
+footer{
+    background-color: #939F93;
+}
+
+
+.menucontainer{
+    background-color: rgb(174, 174, 227);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 60%;
+    gap: 0;
+}
 
 /*unordered links list- opførsel*/
 
@@ -64,10 +107,14 @@ i:hover{
 }
 
 h1{
-    font-size: 5em;
+    font-size: 64px;
 }
 
-h2
+h2{
+    font-size: 40px;
+}
+
+
 
 
 
