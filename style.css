@@ -7,3 +7,10 @@
 img{
     max-width:100%;
 }
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 90px auto 90px ;
+    background-color: #7C857C;
+}
