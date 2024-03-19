@@ -62,14 +62,14 @@ i:hover{
     color: rgb(40, 208, 152);
 }
 
-  @media (max-width: 750px) {
+  @media (max-width: 800px) {
     ul{
         display: none;
     }
 }
 
 
-  @media (min-width: 750px) {
+  @media (min-width: 800px) {
     .menubar{
         display: none;
     }
