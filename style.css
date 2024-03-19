@@ -11,64 +11,66 @@ img{
 body{
     min-height: 100vh;
     background-color: #7C857C;
+    font-family: sans-serif;
 }
 
 
+
+
+/*unordered links list- opførsel*/
+
+ul{
+    padding: 0;
+    float: right;
+}
+
+.logo{
+    float: left;
+}
 
 header{
-    display: flex;
-    justify-content: space-between;
+    padding: 2.2em;
+    font-size: 2.2em;
+}
+
+.menubar{
     float: right;
-    padding: 0px 35px;
-}
-
-header i{
-    font-size: 3em;
-}
-
-header nav{
-    display:none;
-}
-
-header a{
-    font-size: 1rem;
-    font-style: normal;
-    color: #132522;
-    text-decoration: underline;
 }
 
 
 
+/*side-links styling*/
 
+li {
+    display: inline-block;
+    margin-inline: 10px;
 
-/*Responsivitet*/
-
-
-@media screen and (max-width: 600px) {
-    .topnav {
-      display: none;
-    }
   }
 
-.fa-bars{
-    display: flex;
-    float: right;
-    font-size: 3em;
-    padding: 1em;
+  li a {
+    color: rgb(3, 30, 18);
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+  li a:hover {
+    border-bottom: 2px solid white;
+    color: rgb(40, 208, 152);
+  }
+
+i:hover{
+    color: rgb(40, 208, 152);
 }
 
-  @media only screen and (min-width:600px){
-    .fa-bars{
+  @media (max-width: 750px) {
+    ul{
         display: none;
     }
-    header nav{
-        display:block;
-    }
+}
 
-    ul{
-        display:flex;
-        list-style-type: none;
-        padding: 0;
-        gap:50px;
+
+  @media (min-width: 750px) {
+    .menubar{
+        display: none;
     }
 }
