@@ -54,7 +54,7 @@ li {
 
   }
   li a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(40, 208, 152);
     color: rgb(40, 208, 152);
   }
 
