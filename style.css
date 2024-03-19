@@ -10,46 +10,33 @@ img{
 
 body{
     min-height: 100vh;
-    display: grid;
-    grid-template-rows: 90px auto 90px ;
     background-color: #7C857C;
 }
 
 
-/*navigation*/
 
-.topnav{
+header{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    margin-top: 1em;
-    margin-right: 20px;
-    justify-items: right;
-    
-}
-
-
-ul{
-    padding: 0;
     float: right;
+    padding: 0px 35px;
 }
 
-li{
-    display: inline-block;
-    padding: 1em;
-    font-size: 2em;
+header i{
+    font-size: 3em;
 }
 
-li a{
-    color: rgb(4, 5, 4);
-    text-decoration: none;
-    text-transform: uppercase;
+header nav{
+    display:none;
 }
 
-li a:hover{
-    color: rgb(17, 248, 232);
+header a{
+    font-size: 1rem;
+    font-style: normal;
+    color: #132522;
     text-decoration: underline;
 }
+
 
 
 
