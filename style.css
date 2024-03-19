@@ -39,6 +39,7 @@ header{
 
 
 
+
 /*side-links styling*/
 
 li {
@@ -61,6 +62,16 @@ li {
 i:hover{
     color: rgb(40, 208, 152);
 }
+
+h1{
+    font-size: 5em;
+}
+
+h2
+
+
+
+
 
   @media (max-width: 800px) {
     ul{
