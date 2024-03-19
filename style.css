@@ -80,7 +80,26 @@ header{
     float: right;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2em;
+    padding: 3em;
 
+}
+
+.fa-facebook{
+    display:inline-block;
+    color: black;
+    font-size: 4em;
+}
+
+.fa-instagram{
+    display:inline-block;
+    color: black;
+    font-size: 4em;
+}
 
 
 /*side-links styling*/
