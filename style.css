@@ -23,7 +23,6 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     margin:2em 1.5em;
-    padding-top: 2em;
     padding-bottom: 3em;
     font-size: 2em;
     color: rgb(21, 21, 21);
@@ -147,8 +146,11 @@ i:hover{
     ul{
         display: none;
     }
-}
-
+    .menucontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }}
 
   @media (min-width: 800px) {
     .menubar{
